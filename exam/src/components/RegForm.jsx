@@ -1,25 +1,33 @@
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
 import { NavLink } from 'react-router-dom';
-import './LoginForm.css'
+import './RegStyle.css'
 
-function FormFloatingBasicExample() {
+function RegForm() {
   return (
     <div className='container'>
         <div className='LoginForm'>
             <div className='h1Form'>
-                <h1>GET SOME FELICITY WITH <span>AMTLIS</span></h1>
+                <h1>CREATE AN ACCOUNT</h1>
             </div>
+            <div className='row'>
             <FloatingLabel
+                className="mb-3">
+                <Form.Control  className='inputs'type="email" placeholder="Name" />
+            </FloatingLabel>
+             <FloatingLabel
                 className="mb-3">
                 <Form.Control  className='inputs'type="email" placeholder="Email" />
             </FloatingLabel>
-            <div className="passwordWrapper">
+            </div>
+            <div className="row">
                 <FloatingLabel>
                     <Form.Control  className='inputs' type="password" placeholder="Password" />
                 </FloatingLabel>
-                <a href="#" className="forgotLink">Forgot your password?</a>
+                 <FloatingLabel>
+                    <Form.Control  className='inputs' type="password" placeholder="Repeat password" />
+                </FloatingLabel>
             </div>
             <div className='bottomRow'>
                 <div className='socialIcons'>
@@ -28,9 +36,9 @@ function FormFloatingBasicExample() {
                     <img src="./public/twit.png" alt="" />
                     <img src="./public/apple.png" alt="" />
                 </div>
-                <Button className='signinButton' type="submit">Sign In</Button>
+                <Button className='signinButton' type="submit">Log In</Button>
             </div>
-            <NavLink to="/register" className="createAccountLink">Create an account</NavLink>
+            <NavLink to="/" className="createAccountLink">Welcome to Atlatis</NavLink>
 
         </div>
         <div className='LoginFormImages'>
@@ -47,4 +55,4 @@ function FormFloatingBasicExample() {
   );
 }
 
-export default FormFloatingBasicExample;
+export default RegForm;

@@ -39,24 +39,28 @@ span{
     color: #6D8CFF;
 }
 
+.row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
 
 .inputs {
-    width: 93%;
+    width: 90%;
     background-color: transparent;
-    color: white;
-    border-radius: 30px;
+    color: #fff;
     border: 1px solid #555;
-    padding: 12px 15px;
-    margin: 10px 0;
+    border-radius: 20px;
+    padding: 12px;
     font-size: 16px;
-    transition: border 0.3s, background 0.3s;
 }
 
 .inputs:focus {
-    border: 1px solid #6D8CFF;
-    background-color: rgba(255,255,255,0.05);
+    border-color: #6D8CFF;
+    background-color: rgba(255, 255, 255, 0.05);
     outline: none;
 }
+
 ::placeholder {
     color: white;
 }
@@ -149,10 +153,6 @@ span{
     grid-row: 4 / 5;
 }
 
-.passwordWrapper {
-    position: relative;
-    margin-bottom: 15px; 
-}
 
 .forgotLink {
     position: absolute;
