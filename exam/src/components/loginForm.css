@@ -1,0 +1,95 @@
+body{
+    background: linear-gradient(135deg,#0a0a0a,#1e2e50);
+}
+.container{
+    display: flex;
+}
+.LoginForm{
+    width: 825px;
+    height: 900px;
+    background-color: black;
+    margin-left: 50px;
+    border-radius: 20px;
+    padding-left: 50px;
+    margin-top: 50px;
+    display: inline-block;
+}
+.h1Form{
+    width: 470px;
+    height: 288px;
+    padding-top: 50px;
+
+}
+h1{
+    color: white;
+}
+
+.LoginFormImages{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 150px;
+    gap: 10px;
+    width: 825px;
+    height: 900px;
+    padding: 50px;
+    
+}
+
+.LoginFormImages img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.LoginFormImages img:nth-child(1){
+    grid-column: span 2;
+    grid-row:span 2;
+}
+.LoginFormImages img:nth-child(2){
+    grid-column: span 1;
+    grid-row:span 1;
+}
+.LoginFormImages img:nth-child(3){
+    grid-column: span 1;
+    grid-row:span 1;
+}
+.LoginFormImages img:nth-child(4){
+    grid-column: span 2;
+    grid-row:span 1;
+}
+.LoginFormImages img:nth-child(5){
+    grid-column: span 1;
+    grid-row:span 2;
+}
+.LoginFormImages img:nth-child(6),
+.LoginFormImages img:nth-child(7),
+.LoginFormImages img:nth-child(8)
+{
+    grid-column: span 1;
+    grid-row:span 1;
+}
+
+.inputs{
+    width: 725px;
+    height: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 10px;
+}
+::placeholder{
+    color: white;
+}
+
+.socialIcons{
+    margin: 20px;
+}
+.socialIcons img{
+    width: 40px;
+    height: 40px;
+
+    margin-right: 20px;
+}
