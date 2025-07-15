@@ -4,7 +4,8 @@ import Button from 'react-bootstrap/Button';
 import { NavLink } from 'react-router-dom';
 import './RegStyle.css'
 
-function RegForm() {
+export function RegForm()
+{
   return (
     <div className='container'>
         <div className='LoginForm'>
@@ -54,5 +55,3 @@ function RegForm() {
       </div>
   );
 }
-
-export default RegForm;

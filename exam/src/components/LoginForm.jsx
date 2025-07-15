@@ -4,7 +4,8 @@ import Button from 'react-bootstrap/Button'
 import { NavLink } from 'react-router-dom';
 import './LoginForm.css'
 
-function FormFloatingBasicExample() {
+export function FormFloatingBasicExample()
+{
   return (
     <div className='container'>
         <div className='LoginForm'>
@@ -13,7 +14,7 @@ function FormFloatingBasicExample() {
             </div>
             <FloatingLabel
                 className="mb-3">
-                <Form.Control  className='inputs'type="email" placeholder="Email" />
+                <Form.Control  className='inputs' type="email" placeholder="Email" />
             </FloatingLabel>
             <div className="passwordWrapper">
                 <FloatingLabel>
@@ -46,5 +47,3 @@ function FormFloatingBasicExample() {
       </div>
   );
 }
-
-export default FormFloatingBasicExample;
