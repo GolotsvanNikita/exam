@@ -55,6 +55,8 @@ body
     background-color: black;
     width: 537px;
     height: 39px;
+    color: white;
+    padding-left: 20px;
 }
 
 .combine input::placeholder
