@@ -1,8 +1,7 @@
 import {Navigation} from "./components/Navigation.jsx";
 import {SideMenu} from "./components/SideMenu.jsx";
-import VideoPage from "./components/VideoPage.jsx"
-import Comments from "./components/Comments.jsx"
 import './App.css';
+import {MainPage} from "./components/MainPage.jsx";
 
 function App()
 {
@@ -12,13 +11,11 @@ function App()
           <div className="layout">
               <SideMenu />
               <main className="mainContent">
-                    <VideoPage/>
-                    <Comments></Comments>
+                  <MainPage/>
               </main>
           </div>
       </div>
-
   );
 }
 
-export default App
+export default App;
