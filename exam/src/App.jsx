@@ -1,6 +1,7 @@
 import {Navigation} from "./components/Navigation.jsx";
 import {SideMenu} from "./components/SideMenu.jsx";
 import './App.css';
+import {MainPage} from "./components/MainPage.jsx";
 
 function App()
 {
@@ -10,7 +11,7 @@ function App()
           <div className="layout">
               <SideMenu />
               <main className="mainContent">
-                  {/* ..... */}
+                  <MainPage/>
               </main>
           </div>
       </div>

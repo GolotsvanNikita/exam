@@ -45,7 +45,7 @@ body
     cursor: pointer;
     position: absolute;
     left: 59.5%;
-    bottom: 33%;
+    bottom: 35%;
 }
 
 .combine input
@@ -55,6 +55,8 @@ body
     background-color: black;
     width: 537px;
     height: 39px;
+    color: white;
+    padding-left: 20px;
 }
 
 .combine input::placeholder
