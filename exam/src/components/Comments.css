@@ -1,0 +1,179 @@
+.comments {
+  background: #000;
+  color: white;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.comments h3 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.comment-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #444;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+.comment-form img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.comment-form input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 6px;
+}
+
+.comment-form input:focus {
+  outline: none;
+}
+
+.form-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-icons span {
+  font-size: 18px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.form-icons button {
+  background: #333;
+  border: none;
+  font-size: 16px;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.sendCom {
+     background: none   ;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.comment-block {
+  margin-bottom: 24px;
+}
+
+.comment {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.comment.reply {
+  margin-left: 48px;
+  margin-top: 12px;
+}
+
+.comment img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-self: flex-start;
+}
+
+.comment-body {
+  flex: 1;
+}
+
+.comment-meta {
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.comment-time {
+  color: #aaa;
+  font-weight: normal;
+}
+
+.comment-body p {
+  margin: 4px 0 0;
+  font-size: 15px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.comment-actions {
+  display: flex;
+  gap: 14px;
+  margin-top: 4px;
+  align-items: center;
+}
+
+.emojis {
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.reply-btn {
+  font-size: 14px;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.reply-btn:hover {
+  color: #ddd;
+}
+
+.reply-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.reply-form img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.reply-form input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 14px;
+  border-bottom: 1px solid #555;
+  padding: 4px;
+}
+
+.reply-form input:focus {
+  outline: none;
+  border-color: #aaa;
+}
+
+.reply-form button {
+  background: #333;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
