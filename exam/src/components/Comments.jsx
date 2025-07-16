@@ -4,7 +4,8 @@ import Send from '../assets/Send.svg'
 import Emoji from '../assets/emoji.svg'
 import Notif from '../assets/notif.svg'
 
-export default function Comments() {
+export function Comments()
+{
   const [comments, setComments] = useState([
     {
       id: 1,

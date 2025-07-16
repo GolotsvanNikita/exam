@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-bootstrap/Carousel";
 import './MainPage.css';
+import {Link} from "react-router-dom";
 
 export function MainPage()
 {
@@ -13,7 +14,7 @@ export function MainPage()
                     <p>(TAKE ME TO CHURCH УКРАЇНСЬКОЮ)</p>
                 </div>
                 <div className="bottomContent">
-                    <button>WATCH</button>
+                    <Link to="/video"><button>WATCH</button></Link>
                     <p>Enleo • 5M views • 6 day ago</p>
                     <div className="carousel" style={{ flex: 1 }}>
                         <Carousel data-bs-theme="dark">

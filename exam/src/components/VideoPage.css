@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-.yt-page {
+.yt-page
+{
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -9,6 +11,7 @@
     flex-wrap: nowrap;
     max-width: 1451px;
     margin: 0 auto;
+    font-family: 'Inter', sans-serif;
 }
 
 .yt-left {
@@ -281,10 +284,9 @@ h2{
     font-size: 14px;
 }
 
-.AboutAvtor{
-    background: radial-gradient(
-    rgb(13, 88, 131),
-    #0a0a0a 80%);
+.AboutAvtor
+{
+    background: linear-gradient(160deg, rgba(100, 134, 219, 0.4), #0a0a0a 70%);
     color: white;
     position: relative;
     display: flex;
@@ -301,7 +303,7 @@ h2{
     color: white;
 }
 .firstInfo span{
-    margin-left: 1240px;
+    margin-left: 1220px;
     color: white;
 
 }
@@ -311,8 +313,6 @@ h2{
     color: #fff;
     font-size: 14px;
     cursor: pointer;
-
-
 }
 
 .yt-rec-container {

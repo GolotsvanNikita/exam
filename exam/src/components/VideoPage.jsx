@@ -10,7 +10,8 @@ import ArrowDown from '../assets/ArrowDown.svg'
 import YouTube from "react-youtube";
 import "./VideoPage.css";
 
-export default function YouTubeCustomPlayer() {
+export function YouTubeCustomPlayer()
+{
   const playerRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [muted, setMuted] = useState(false);
@@ -20,8 +21,8 @@ export default function YouTubeCustomPlayer() {
   const [showVideo, setShowVideo] = useState(false);
 
   const opts = {
-    height: "450",
-    width: "800",
+    height: "525",
+    width: "1068",
     playerVars: {
       autoplay: 0,
       controls: 0,
@@ -292,7 +293,5 @@ export default function YouTubeCustomPlayer() {
         </div>
   
     </div>
-
-
   );
 }

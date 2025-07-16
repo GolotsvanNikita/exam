@@ -1,9 +1,8 @@
-body {
+body
+{
     background: linear-gradient(135deg, #0a0a0a, #1e2e50);
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', sans-serif;
 }
+
 .container {
     display: flex;
     justify-content: center;
@@ -13,52 +12,52 @@ body {
     box-sizing: border-box;
     max-width: 1200px;
     margin: 0 auto;
+    transform: scale(1.2);
 }
 
 .LoginForm {
-  background-color: black;
-  color: white;
-  padding: 50px 40px; 
-  border-radius: 20px;
-  max-width: 500px; 
-  width: 100%;
-  box-sizing: border-box;
-  height: 512px;
+    background-color: black;
+    color: white;
+    padding: 50px 40px;
+    border-radius: 20px;
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 512px;
 }
 
-/* Заголовок */
 .h1Form {
     margin-bottom: 30px;
 }
+
 h1 {
     font-size: 38px;
     font-weight: 300;
     letter-spacing: 1px;
 }
-span{
+
+span {
     color: #6D8CFF;
 }
 
-
-.inputs {
-    width: 93%;
-    background-color: transparent;
-    color: white;
-    border-radius: 30px;
-    border: 1px solid #555;
-    padding: 12px 15px;
-    margin: 10px 0;
-    font-size: 16px;
-    transition: border 0.3s, background 0.3s;
+.LoginForm .inputs {
+    width: 100% !important;
+    background-color: transparent !important;
+    color: white !important;
+    border: 1px solid #555 !important;
+    border-radius: 20px !important;
+    padding: 12px !important;
+    font-size: 16px !important;
 }
 
-.inputs:focus {
-    border: 1px solid #6D8CFF;
-    background-color: rgba(255,255,255,0.05);
+.LoginForm .inputs:focus {
+    border-color: #6D8CFF;
+    background-color: rgba(255, 255, 255, 0.05);
     outline: none;
 }
+
 ::placeholder {
-    color: white;
+    color: white !important;
 }
 
 .bottomRow {
@@ -74,25 +73,23 @@ span{
     gap: 8px;
 }
 
-
 .signinButton {
-    background-color: #6D8CFF;
-    border: none;
-    border-radius: 30px;
-    color: white;
-    padding: 10px 10px;
-    font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: background 0.3s;
-    white-space: nowrap; 
-    width: 210px;
+    background-color: #6D8CFF !important;
+    border: none !important;
+    border-radius: 30px !important;
+    color: white !important;
+    padding: 10px !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    cursor: pointer !important;
+    transition: background 0.3s !important;
+    white-space: nowrap !important;
+    width: 210px !important;
 }
 
 .signinButton:hover {
     background-color: #5072cc;
 }
-
 
 .LoginFormImages {
     display: grid;
@@ -102,6 +99,7 @@ span{
     width: 100%;
     max-width: 500px;
 }
+
 .LoginFormImages img {
     width: 100%;
     height: 100%;
@@ -151,7 +149,7 @@ span{
 
 .passwordWrapper {
     position: relative;
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
 }
 
 .forgotLink {
@@ -160,7 +158,7 @@ span{
     right: 20px;
     transform: translateY(-50%);
     font-size: 12px;
-    color: white; 
+    color: white;
     text-decoration: none;
 }
 
@@ -182,4 +180,3 @@ span{
     color: #6D8CFF;
     text-decoration: underline;
 }
-

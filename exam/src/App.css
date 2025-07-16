@@ -23,5 +23,5 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    min-height: 0; /* Убираем переполнение */
+    min-height: 0;
 }
